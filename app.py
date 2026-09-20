@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 def load_data():
-    data = pd.read_csv("C:\\Users\\adils\\PyProject\\Atividade_01\\dataset_sinalizacao_ferroviaria.csv")
+    data = pd.read_csv("dataset_sinalizacao_ferroviaria.csv")
     data["timestamp"] = pd.to_datetime(data["timestamp"])
     return data
 
