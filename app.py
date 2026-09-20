@@ -15,7 +15,7 @@ def load_data():
 
 df = load_data()
 
-st.title("🚆 Dashboard Operacional Ferroviário")
+st.title("Dashboard Operacional Ferroviário")
 st.caption("Exploração dos dados de circulação, sinalização, headway e ocupação de circuito.")
 
 # Sidebar filters
